@@ -45,5 +45,12 @@ namespace English.Chard
 			Chards.Remove(t);
 			Current = Chards.Count;
 		}
+
+		public Chard Take(int i)
+		{
+			Chard chardDrawn = Chards.First();
+			this.Chards.Remove(chardDrawn);
+			return chardDrawn;
+		}
 	}
 }

@@ -18,7 +18,6 @@ namespace English.Chard
 
 		public void Play()
 		{
-			this.Event.Attack();
 			
 		}
 	}
