@@ -11,7 +11,7 @@ namespace English.Chard
 		/// <summary>
 		/// Chards available.
 		/// </summary>
-		public List<Chard> Chards { get; set; }
+		private List<Chard> Chards { get; set; }
 
 		/// <summary>
 		/// The current count of chards available.

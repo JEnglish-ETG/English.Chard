@@ -6,24 +6,20 @@ using System.Threading.Tasks;
 
 namespace English.Chard
 {
+	/// <summary>
+	/// Large scale of occuring actions.
+	/// </summary>
 	public class Event
 	{
-		public void Turn()
-		{
+		/// <summary>
+		/// The object to recieve actions.
+		/// </summary>
+		public Doll Target { get; set; }
 
-		}
-
-		public void Play()
-		{
-
-		}
-
-		public void Attack()
-		{
-
-		}
-
-		public void Kill()
+		/// <summary>
+		/// The actions to occur onto the target.
+		/// </summary>
+		public void Action()
 		{
 
 		}

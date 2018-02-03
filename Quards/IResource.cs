@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace English.Chard
 {
-	public interface IResource<T>
+	interface IResource<T>
 	{
 		int Current { get; set; }
 		int Maximum { get; set; }

@@ -20,7 +20,7 @@ namespace English.Chard
 		/// <summary>
 		/// Increase the number of life points available. 
 		/// </summary>
-		/// <see cref="Values.Heal"/>
+		/// <see cref="Values.SelfHealAmount"/>
 		/// <param name="t">Health to be added.</param>
 		public void Add(int t)
 		{
@@ -30,7 +30,7 @@ namespace English.Chard
 		/// <summary>
 		/// Decrease the number of life points available.
 		/// </summary>
-		/// <see cref="Values.Damage"/>
+		/// <see cref="Values.DamageOut"/>
 		/// <seealso cref="Event.Attack"/>
 		/// <param name="t">Health to be removed.</param>
 		public void Remove(int t)

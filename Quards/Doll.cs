@@ -36,7 +36,6 @@ namespace English.Chard
 		/// </summary>
 		public Hand Hand { get; set; }
 
-		/// <summary>
 		/// The sum of all cards in possession.
 		/// </summary>
 		public List<Chard> Deck { get; set; }
@@ -51,10 +50,21 @@ namespace English.Chard
 		/// </summary>
 		public Pile DiscardPile { get; set; }
 
-		public void DrawCard()
+
+		public void Draw()
 		{
-			Chard chardDrawn = DrawPile.Chards.First();
-			DrawPile.Remove(chardDrawn);
+			DrawPile.PickUp();
+		}
+		public void Draw(int i)
+		{
+			DrawPile.PickUp(i);
+		}
+
+		public void Discard(Chard c)
+		{
+			c.OnDiscard.Action();
+
+			DiscardPile.PlaceDown(this.Hand, c);
 		}
 
 	}
