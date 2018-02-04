@@ -2,8 +2,6 @@
 
 # Chard - A New Card Game
 
-***
-
 This is a project to explore the application development process. 
 
 You have cards.
