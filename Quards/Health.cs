@@ -33,7 +33,7 @@ namespace English.Chard
 		/// <see cref="Values.DamageOut"/>
 		/// <seealso cref="Event.Attack"/>
 		/// <param name="t">Health to be removed.</param>
-		public void Remove(int t)
+		public void Spend(int t)
 		{
 			Current -= t;
 		}

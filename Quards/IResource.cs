@@ -12,6 +12,6 @@ namespace English.Chard
 		int Maximum { get; set; }
 
 		void Add(T t);
-		void Remove(T t);
+		void Spend(T t);
 	}
 }

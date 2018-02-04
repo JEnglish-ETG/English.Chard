@@ -29,7 +29,7 @@
 		/// Decrease the current mana by <paramref name="t"/>
 		/// </summary>
 		/// <param name="t">Amount of mana expended.</param>
-		public void Remove(int t)
+		public void Spend(int t)
 		{
 			if(Current > t)
 				Current -= t;

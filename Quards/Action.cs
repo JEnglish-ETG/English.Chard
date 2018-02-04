@@ -18,14 +18,14 @@ namespace English.Chard
 		/// <param name="target"></param>
 		public static void Attack(this Chard c,Doll target)
 		{
-			target.Health.Remove(c.Values.DamageOut);
+			target.Health.Spend(c.Values.DamageOut);
 		}
 		/// <summary>
 		/// Adds <paramref name="c"/>'s heal value to <paramref name="target"/>'s health.
 		/// </summary>
 		/// <param name="c">Chard being played.</param>
 		/// <param name="target">Self, friend, or opponent.</param>
-		public static void Heal(this Chard c, Doll target)
+		public static void Heal(this Chard c,Doll target)
 		{
 			target.Health.Add(c.Values.SelfHealAmount);
 		}
@@ -35,7 +35,7 @@ namespace English.Chard
 		/// <param name="c"></param>
 		/// <param name="pile"></param>
 		/// <param name="hand"></param>
-		public static void Draw(this Chard c, Pile pile, Hand hand)
+		public static void Draw(this Chard c,Pile pile,Hand hand)
 		{
 			int drawCount = c.Values.DrawAmount;
 			if(drawCount > 1)

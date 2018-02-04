@@ -50,16 +50,27 @@ namespace English.Chard
 		/// </summary>
 		public Pile DiscardPile { get; set; }
 
-
+		/// <summary>
+		/// To draw one card.
+		/// </summary>
 		public void Draw()
 		{
 			DrawPile.PickUp();
 		}
+
+		/// <summary>
+		/// To draw <paramref name="i"/> cards.
+		/// </summary>
+		/// <param name="i"></param>
 		public void Draw(int i)
 		{
 			DrawPile.PickUp(i);
 		}
 
+		/// <summary>
+		/// Remove <see cref="Chard"/> <paramref name="c"/> from <see cref="Doll.Hand"/>.
+		/// </summary>
+		/// <param name="c"></param>
 		public void Discard(Chard c)
 		{
 			c.OnDiscard.Action();

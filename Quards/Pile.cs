@@ -11,6 +11,9 @@ namespace English.Chard
 	/// </summary>
 	public class Pile
 	{
+		/// <summary>
+		/// Constructor.
+		/// </summary>
 		public Pile()
 		{
 		}
@@ -39,7 +42,7 @@ namespace English.Chard
 		}
 
 		/// <summary>
-		/// Take a number of chards from the pile and add it to hand.
+		/// Take a number of <seealso cref="Chard"/>s from the pile and return to <see cref="Doll.Hand"/>.
 		/// </summary>
 		/// <param name="i"></param>
 		/// <returns></returns>
@@ -55,7 +58,7 @@ namespace English.Chard
 		/// <summary>
 		/// Take a chard from the pile and add it to hand.
 		/// </summary>
-		/// <returns></returns>
+		/// <returns>Chard</returns>
 		public Chard PickUp()
 		{
 			Chard chardDrawn = Chards.First();
@@ -64,13 +67,13 @@ namespace English.Chard
 		}
 
 		/// <summary>
-		/// Remove from hand; place on discard pile.
+		/// Remove from <see cref="Doll.Hand"/>; place on this <see cref="Pile"/>.
 		/// </summary>
-		/// <param name="hand"></param>
-		/// <param name="c"></param>
+		/// <param name="hand">The <see cref="Doll.Hand"/> which owns <paramref name="c"/>.</param>
+		/// <param name="c">The <see cref="Chard"/> placed on this pile.</param>
 		public void PlaceDown(Hand hand,Chard c)
 		{
-			hand.Remove(c);
+			hand.Spend(c);
 			this.Chards.Add(c);
 		}
 	}

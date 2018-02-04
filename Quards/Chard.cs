@@ -12,12 +12,19 @@ namespace English.Chard
     public class Chard
     {
 		private static int t;
+		/// <summary>
+		/// Constructor with image.
+		/// </summary>
+		/// <param name="img"></param>
 		public Chard(string img)
 		{
 			this.Image = img;
 			this.Id = t++;
 		}
 
+		/// <summary>
+		/// Constructor.
+		/// </summary>
 		public Chard()
 		{
 			this.Id = t++;
@@ -63,6 +70,9 @@ namespace English.Chard
 		/// </summary>
 		public Event OnDiscard { get; set; }
 
+		/// <summary>
+		/// Loads the image onto the card.
+		/// </summary>
 		public void LoadImage()
 		{
 			

@@ -1,5 +1,8 @@
 ﻿namespace English.Chard
 {
+	/// <summary>
+	/// Contains the numeric information for a <see cref="Chard.OnPlay"/> or <see cref="Chard.OnDiscard"/>.
+	/// </summary>
 	public class Values
 	{
 		/// <summary>

@@ -36,7 +36,7 @@ namespace English.Chard
 		/// Make a chard unavailable.
 		/// </summary>
 		/// <param name="t"></param>
-		public void Remove(Chard t)
+		public void Spend(Chard t)
 		{
 			throw new NotImplementedException();
 		}
