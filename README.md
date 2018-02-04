@@ -9,3 +9,13 @@ They have cards.
 Play your cards to deal damage, self heal, or draw.
 
 Don't die.
+
+//--------
+
+Current Team:
+- DongGundam
+- r3ce
+- Racer
+- BJKittens
+- ZBSkelton
+- Jrawly
