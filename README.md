@@ -1,6 +1,6 @@
 # Chard - A New Card Game
 
-![Imgur](https://i.imgur.com/T3WYZt8.png)
+![Imgur](https://i.imgur.com/NlepwY6.png)
 
 ***
 
