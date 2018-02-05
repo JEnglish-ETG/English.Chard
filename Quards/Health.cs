@@ -31,7 +31,6 @@ namespace English.Chard
 		/// Decrease the number of life points available.
 		/// </summary>
 		/// <see cref="Values.DamageOut"/>
-		/// <seealso cref="Event.Attack"/>
 		/// <param name="t">Health to be removed.</param>
 		public void Spend(int t)
 		{

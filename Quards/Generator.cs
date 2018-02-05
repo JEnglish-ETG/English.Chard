@@ -22,34 +22,7 @@ namespace English.Chard
 			rc.Class = GenerateClass();
 			rc.Description = GenerateDescription();
 			rc.Name = GenerateName();
-			rc.OnPlay = GenerateOnPlay();
-			rc.OnDiscard = GenerateOnDiscard();
 			return rc;
-		}
-
-		private static Event GenerateOnDiscard()
-		{
-			throw new NotImplementedException();
-		}
-
-		private static Event GenerateOnPlay()
-		{
-			throw new NotImplementedException();
-		}
-
-		private static string GenerateName()
-		{
-			throw new NotImplementedException();
-		}
-
-		private static string GenerateDescription()
-		{
-			throw new NotImplementedException();
-		}
-
-		private static string GenerateClass()
-		{
-			throw new NotImplementedException();
 		}
 
 		/// <summary>
@@ -66,6 +39,22 @@ namespace English.Chard
 			v.ManaCost = 0;
 			v.SelfHealAmount = 0;
 			return v;
+		}
+
+		private static string GenerateName()
+		{
+			throw new NotImplementedException();
+		}
+
+		private static string GenerateDescription()
+		{
+			throw new NotImplementedException();
+		}
+
+		private static string GenerateClass()
+		{
+			throw new NotImplementedException();
+
 		}
 	}
 }

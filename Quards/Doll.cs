@@ -73,7 +73,7 @@ namespace English.Chard
 		/// <param name="c"></param>
 		public void Discard(Chard c)
 		{
-			c.OnDiscard.Action();
+			
 
 			DiscardPile.PlaceDown(this.Hand, c);
 		}

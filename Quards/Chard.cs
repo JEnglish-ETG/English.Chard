@@ -61,16 +61,6 @@ namespace English.Chard
 		public Values Values { get; set; }
 
 		/// <summary>
-		/// For special events when this chard is played.
-		/// </summary>
-		public Event OnPlay { get; set; }
-
-		/// <summary>
-		/// For special events when this chard is discarded.
-		/// </summary>
-		public Event OnDiscard { get; set; }
-
-		/// <summary>
 		/// Loads the image onto the card.
 		/// </summary>
 		public void LoadImage()

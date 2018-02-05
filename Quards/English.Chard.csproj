@@ -110,7 +110,6 @@
     <Compile Include="Action.cs" />
     <Compile Include="Chard.cs" />
     <Compile Include="Doll.cs" />
-    <Compile Include="Event.cs" />
     <Compile Include="Generator.cs" />
     <Compile Include="Hand.cs" />
     <Compile Include="Health.cs" />
