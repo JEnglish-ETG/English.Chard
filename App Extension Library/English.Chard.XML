@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>English.Chard</name>
+    </assembly>
+    <members>
+        <member name="T:English.Chard.Action">
+            <summary>
+            Invokes an attack, heal, card draw, or other moment.
+            </summary>
+        </member>
+        <member name="M:English.Chard.Action.Attack(English.Chard.Chard,English.Chard.Doll)">
+            <summary>
+            Remove <paramref name="c"/>'s damage value from <paramref name="target"/>'s health.
+            </summary>
+            <param name="c"></param>
+            <param name="target"></param>
+        </member>
+        <member name="M:English.Chard.Action.Heal(English.Chard.Chard,English.Chard.Doll)">
+            <summary>
+            Adds <paramref name="c"/>'s heal value to <paramref name="target"/>'s health.
+            </summary>
+            <param name="c">Chard being played.</param>
+            <param name="target">Self, friend, or opponent.</param>
+        </member>
+        <member name="M:English.Chard.Action.Draw(English.Chard.Chard,English.Chard.Pile,English.Chard.Hand)">
+            <summary>
+            Add <paramref name="c"/>'s draw value amount of chards to <paramref name="hand"/> from <paramref name="pile"/>.
+            </summary>
+            <param name="c"></param>
+            <param name="pile"></param>
+            <param name="hand"></param>
+        </member>
+        <member name="T:English.Chard.Chard">
+            <summary>
+            Chard is a card. Does something when played.
+            </summary>
+        </member>
+        <member name="M:English.Chard.Chard.#ctor(System.String)">
+            <summary>
+            Constructor with image.
+            </summary>
+            <param name="img"></param>
+        </member>
+        <member name="M:English.Chard.Chard.#ctor">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Chard.Class">
+            <summary>
+            The Archetype to which the chard belongs.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Chard.Name">
+            <summary>
+            Title of the chard.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Chard.Id">
+            <summary>
+            Identification number of the chard.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Chard.Description">
+            <summary>
+            Describes actions.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Chard.Image">
+            <summary>
+            URL or file location of the face of the chard.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Chard.Values">
+            <summary>
+            Defines the mana cost, the damage delt, the hp restored, the cards drawn when played.
+            </summary>
+        </member>
+        <member name="M:English.Chard.Chard.LoadImage">
+            <summary>
+            Loads the image onto the card.
+            </summary>
+        </member>
+        <member name="T:English.Chard.Doll">
+            <summary>
+            The platform to hold all resources and perform actions. Can be AI or USER controlled.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Doll.Id">
+            <summary>
+            Unique key to identify this doll.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Doll.Name">
+            <summary>
+            The display name.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Doll.Health">
+            <summary>
+            The health resource of this doll.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Doll.Mana">
+            <summary>
+            The mana resource of this doll.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Doll.Hand">
+            <summary>
+            The hand resource of this doll.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:English.Chard.Doll.Deck" -->
+        <member name="P:English.Chard.Doll.DrawPile">
+            <summary>
+            Chards to be added to hand.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Doll.DiscardPile">
+            <summary>
+            Chards removed.
+            </summary>
+        </member>
+        <member name="M:English.Chard.Doll.Draw">
+            <summary>
+            To draw one card.
+            </summary>
+        </member>
+        <member name="M:English.Chard.Doll.Draw(System.Int32)">
+            <summary>
+            To draw <paramref name="i"/> cards.
+            </summary>
+            <param name="i"></param>
+        </member>
+        <member name="M:English.Chard.Doll.Discard(English.Chard.Chard)">
+            <summary>
+            Remove <see cref="T:English.Chard.Chard"/> <paramref name="c"/> from <see cref="P:English.Chard.Doll.Hand"/>.
+            </summary>
+            <param name="c"></param>
+        </member>
+        <member name="T:English.Chard.Generator">
+            <summary>
+            For chard generation.
+            </summary>
+        </member>
+        <member name="M:English.Chard.Generator.GenerateChard">
+            <summary>
+            Generates a random chard with random values.
+            </summary>
+            <returns>Random chard.</returns>
+        </member>
+        <member name="M:English.Chard.Generator.GenerateValues">
+            <summary>
+            Generate random values for a chard.
+            </summary>
+            <returns><see cref="T:English.Chard.Values"/>.</returns>
+        </member>
+        <member name="T:English.Chard.Hand">
+            <summary>
+            Visible, current, actionable objects.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Hand.Chards">
+            <summary>
+            Chards available.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Hand.Current">
+            <summary>
+            The current count of chards available.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Hand.Maximum">
+            <summary>
+            The maximum amount of chards to be held.
+            </summary>
+        </member>
+        <member name="M:English.Chard.Hand.Add(English.Chard.Chard)">
+            <summary>
+            Make a chard available.
+            </summary>
+            <param name="t"></param>
+        </member>
+        <member name="M:English.Chard.Hand.Spend(English.Chard.Chard)">
+            <summary>
+            Make a chard unavailable.
+            </summary>
+            <param name="t"></param>
+        </member>
+        <member name="T:English.Chard.Health">
+            <summary>
+            The life points of a doll. At 0, the doll dies.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Health.Current">
+            <summary>
+            The number of life points available.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Health.Maximum">
+            <summary>
+            The maximum life to be held.
+            </summary>
+        </member>
+        <member name="M:English.Chard.Health.Add(System.Int32)">
+            <summary>
+            Increase the number of life points available. 
+            </summary>
+            <see cref="P:English.Chard.Values.SelfHealAmount"/>
+            <param name="t">Health to be added.</param>
+        </member>
+        <member name="M:English.Chard.Health.Spend(System.Int32)">
+            <summary>
+            Decrease the number of life points available.
+            </summary>
+            <see cref="P:English.Chard.Values.DamageOut"/>
+            <param name="t">Health to be removed.</param>
+        </member>
+        <member name="T:English.Chard.ManaPool">
+            <summary>
+            The storage of a doll's energy.
+            </summary>
+        </member>
+        <member name="P:English.Chard.ManaPool.Current">
+            <summary>
+            The current supply of Mana available.
+            </summary>
+        </member>
+        <member name="P:English.Chard.ManaPool.Maximum">
+            <summary>
+            The maximum amount of mana to be held.
+            </summary>
+        </member>
+        <member name="M:English.Chard.ManaPool.Add(System.Int32)">
+            <summary>
+            Increase current mana by <paramref name="t"/>.
+            </summary>
+            <param name="t">Mana to be added.</param>
+        </member>
+        <member name="M:English.Chard.ManaPool.Spend(System.Int32)">
+            <summary>
+            Decrease the current mana by <paramref name="t"/>
+            </summary>
+            <param name="t">Amount of mana expended.</param>
+        </member>
+        <member name="T:English.Chard.Pile">
+            <summary>
+            A container to hold chards.
+            </summary>
+        </member>
+        <member name="M:English.Chard.Pile.#ctor">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Pile.Chards">
+            <summary>
+            The chards in the pile.
+            </summary>
+        </member>
+        <member name="M:English.Chard.Pile.Add(English.Chard.Chard)">
+            <summary>
+            Add a chard to the pile.
+            </summary>
+            <param name="chard"></param>
+        </member>
+        <member name="M:English.Chard.Pile.Remove(English.Chard.Chard)">
+            <summary>
+            Remove a chard from the pile.
+            </summary>
+            <param name="t"></param>
+        </member>
+        <member name="M:English.Chard.Pile.PickUp(System.Int32)">
+            <summary>
+            Take a number of <seealso cref="T:English.Chard.Chard"/>s from the pile and return to <see cref="P:English.Chard.Doll.Hand"/>.
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="M:English.Chard.Pile.PickUp">
+            <summary>
+            Take a chard from the pile and add it to hand.
+            </summary>
+            <returns>Chard</returns>
+        </member>
+        <member name="M:English.Chard.Pile.PlaceDown(English.Chard.Hand,English.Chard.Chard)">
+            <summary>
+            Remove from <see cref="P:English.Chard.Doll.Hand"/>; place on this <see cref="T:English.Chard.Pile"/>.
+            </summary>
+            <param name="hand">The <see cref="P:English.Chard.Doll.Hand"/> which owns <paramref name="c"/>.</param>
+            <param name="c">The <see cref="T:English.Chard.Chard"/> placed on this pile.</param>
+        </member>
+        <member name="T:English.Chard.Values">
+            <summary>
+            Contains the numeric information for a <see cref="!:Chard.OnPlay"/> or <see cref="!:Chard.OnDiscard"/>.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Values.DamageOut">
+            <summary>
+            Health to be removed from the target.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Values.ManaCost">
+            <summary>
+            Mana to be removed from the user.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Values.SelfHealAmount">
+            <summary>
+            Health to be added to the user.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Values.DrawAmount">
+            <summary>
+            Cards to be added to the users hand.
+            </summary>
+        </member>
+        <member name="P:English.Chard.Values.Bonus">
+            <summary>
+            Multiplier.
+            </summary>
+        </member>
+    </members>
+</doc>
