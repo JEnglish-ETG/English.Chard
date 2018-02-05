@@ -30,7 +30,7 @@ We __absolutely__ need
 
 Join our Discord! <https://discord.gg/wdpZCRw>
 
-![](https://docs.google.com/drawings/d/e/2PACX-1vQsRXKLamBrlnxrageQ725ldWtwu2ZeArYsMkA5KN-MKAkj2t96SHaILkrO-Jo3_6KCbLBynLOMz6DK/pub?w=128&h=128)
+[![Chard Server](https://docs.google.com/drawings/d/e/2PACX-1vQsRXKLamBrlnxrageQ725ldWtwu2ZeArYsMkA5KN-MKAkj2t96SHaILkrO-Jo3_6KCbLBynLOMz6DK/pub?w=128&h=128)](https://discord.gg/wdpZCRw)
 
 ---
 
