@@ -1,4 +1,4 @@
-![Imgur](https://i.imgur.com/NlepwY6.png)
+![Imgur](https://i.imgur.com/yk4csBr.png)
 
 # Chard - A New Card Game
 
