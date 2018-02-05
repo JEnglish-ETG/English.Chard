@@ -2,11 +2,13 @@
 
 ### A Work In Progess by Devs Who Have No Idea What We are Doing.
 
+## Join our Discord! [![Chard Server](https://docs.google.com/drawings/d/e/2PACX-1vQsRXKLamBrlnxrageQ725ldWtwu2ZeArYsMkA5KN-MKAkj2t96SHaILkrO-Jo3_6KCbLBynLOMz6DK/pub?w=56&h=56)](https://discord.gg/wdpZCRw) 
+
 ---
 
-# Join our Discord! [![Chard Server](https://docs.google.com/drawings/d/e/2PACX-1vQsRXKLamBrlnxrageQ725ldWtwu2ZeArYsMkA5KN-MKAkj2t96SHaILkrO-Jo3_6KCbLBynLOMz6DK/pub?w=56&h=56)](https://discord.gg/wdpZCRw) 
-
 # About
+
+---
 
 ### Hand-Made ![](https://docs.google.com/drawings/d/e/2PACX-1vSbQuf4syuvDRSucI15IMcUP-VoPRBcuH8zEZNxRBDglmCAbyMCtbN3I6_28gK8-rkE-hKfsz3P-oz9/pub?w=50&h=50)
 
