@@ -24,11 +24,17 @@ We __absolutely__ need
 - ~~Team Hype Man to Yell "LET'S GO CHAMP"~~
 - *Writers*
 
+![Prototype Cards 1](https://docs.google.com/drawings/d/e/2PACX-1vRNZsbN2Ev4ZqPi_J2PKVV5JPQ18q_qVFdOoPvaJIhY3g19vfLWx5LVa6f_zhdJeb3Zhk7jN53yxVtE/pub?w=649&h=307)
+
 ***
 
 Join our Discord! <https://discord.gg/wdpZCRw>
 
 ![](https://docs.google.com/drawings/d/e/2PACX-1vQsRXKLamBrlnxrageQ725ldWtwu2ZeArYsMkA5KN-MKAkj2t96SHaILkrO-Jo3_6KCbLBynLOMz6DK/pub?w=128&h=128)
+
+---
+
+![Prototype Cards 2](https://docs.google.com/drawings/d/e/2PACX-1vRIsKlxMk8B6p1f-ThjlZuTmtrKicYT4vwDCbdVuzPMklVn1W51ovD6vz3e7MS732X_5LAywadLktP1/pub?w=649&h=307)
 
 ## Current Team:
 - DongGundam
@@ -37,6 +43,3 @@ Join our Discord! <https://discord.gg/wdpZCRw>
 - BJKittens
 - ZBSkelton
 - Jrawly
-
-
-
