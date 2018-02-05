@@ -51,9 +51,9 @@
 # is only available from the command line. Turn it on by uncommenting the 
 # entries below.
 ###############################################################################
-#*.doc   diff=astextplain
+*.doc   diff=astextplain
 #*.DOC   diff=astextplain
-#*.docx  diff=astextplain
+*.docx  diff=astextplain
 #*.DOCX  diff=astextplain
 #*.dot   diff=astextplain
 #*.DOT   diff=astextplain
