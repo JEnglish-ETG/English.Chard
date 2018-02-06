@@ -2,7 +2,7 @@
 
 ### A Work In Progess by Devs Who Have No Idea What We are Doing.
 
-## Join our Discord! [![Chard Server](https://docs.google.com/drawings/d/e/2PACX-1vQsRXKLamBrlnxrageQ725ldWtwu2ZeArYsMkA5KN-MKAkj2t96SHaILkrO-Jo3_6KCbLBynLOMz6DK/pub?w=56&h=56)](https://discord.gg/wdpZCRw) 
+[![Chard Server](https://docs.google.com/drawings/d/e/2PACX-1vQ08FcVMrrvFzMyhryrFC8KSC44Ebtpx8k_nhdqpKXReJXqr6DGLOjtv9GesBObyMIc2Q_hGvyg5SG-/pub?w=326&h=114)](https://discord.gg/wdpZCRw) 
 
 ---
 
