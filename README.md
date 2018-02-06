@@ -1,14 +1,11 @@
-![](https://docs.google.com/drawings/d/e/2PACX-1vRdi5OTdEpOXk6w-jRzViC1hIeFSW-7BZ2C87ahU4XWQJN_T7c-TtgmZCatfmHln2uI4zTVDMC_NcBh/pub?w=307&h=107)
+# Chard. 
+###### Learn to Play. Code to Learn.
 
 ### A Work In Progess by Devs Who Have No Idea What We are Doing.
 
 [![Chard Server](https://docs.google.com/drawings/d/e/2PACX-1vQ08FcVMrrvFzMyhryrFC8KSC44Ebtpx8k_nhdqpKXReJXqr6DGLOjtv9GesBObyMIc2Q_hGvyg5SG-/pub?w=326&h=114)](https://discord.gg/wdpZCRw) 
 
----
-
 # About
-
----
 
 ### Hand-Made ![](https://docs.google.com/drawings/d/e/2PACX-1vSbQuf4syuvDRSucI15IMcUP-VoPRBcuH8zEZNxRBDglmCAbyMCtbN3I6_28gK8-rkE-hKfsz3P-oz9/pub?w=50&h=50)
 
