@@ -32,9 +32,12 @@ We __absolutely__ need
 ---
 
 ## Current Team:
+- @AdditiveIdentity
+- @blupenguin
+- @ClemsonGandalf
 - DongGundam
-- r3ce
-- Racer
+- @r3cebarnett
+- @Dealracer24
 - BJKittens
 - ZBSkelton
 - Jrawly
