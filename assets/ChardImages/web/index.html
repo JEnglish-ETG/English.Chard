@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <title>Doc</title>
+    <script src="mockupsrc.js"></script>
+</head>
+
+<body>
+    <div class="top bar">
+        <button type="button" onclick="ShowClick()">Nice</button>
+        <p id="score"> Clicked 0</p>
+    </div>
+    <div class="area" id="board">
+        <div class="cardheader container" id="matt">
+            <div draggable="true" class="card" id="c1" onclick="KeepCount()">1</div>
+            <!--<div draggable="true" class="card" id="c2" onclick="KeepCount()">
+            </div>
+            <div draggable="true" class="card" id="c3" onclick="KeepCount()">
+            </div>-->
+        </div>
+    </div>
+    
+    <div class="bottom bar">
+        <div id="deck"></div>
+    </div>
+
+</body>
+
+</html>

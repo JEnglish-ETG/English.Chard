@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font: 600,status-bar;
+    
+}
+a{
+    color:black;
+}
+p {
+    border: 1px solid white;
+    padding:5px;
+    margin: 5px;
+    display:inline-block;
+    color:white;
+    font-size:20px;
+}
+button {
+    display:inline-block;
+    padding: 5px 30px;
+}
+.top.bar{
+    float: top;
+    background: rgb(49, 60, 66);
+    width:100%;
+    padding:40px;
+    margin:0px;
+    border: 3px solid rgb(255, 255, 255);
+    z-index: 1;
+}
+.card {
+    padding: 90px 60px;
+    position: absolute;
+    border-top: 1px solid white;
+    border-right: 2px solid rgb(124, 226, 192);
+    background: rgb(115, 204, 204);
+}
+#c1 {
+    position: absolute;
+    cursor: move;
+    z-index: 3;
+}
+#board{
+    float: left;
+    background: rgb(66, 119, 112);
+    width:100%;
+    padding:200px;
+    margin:5px;
+    border: none;   
+    z-index: 1;
+    transition: all 900ms; 
+}
+#matt {
+    padding:70px;
+    position: absolute;
+    z-index: 2;
+}
+.area {
+    /*background: aliceblue;*/
+    padding: 65px 45px;
+    margin: 5px 5px;
+    display: block;
+    position: absolute;
+    border: 2px solid black;
+    transition: all 100ms ease-out;
+}
+/*
+.card:hover {
+    transform: scale(1.05) translate(0px,-10px);
+    background: rgb(120, 228, 183);    
+}
+
+
+/*
+.trigger:hover {
+    transform: translate(200px, 150px) 
+    rotate(20deg);
+}*/
