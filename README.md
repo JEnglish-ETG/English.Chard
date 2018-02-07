@@ -41,3 +41,5 @@ We __absolutely__ need
 - BJKittens
 - ZBSkelton
 - Jrawly
+
+<sub>![Wallpaper](/assets/ChardImages/chard_wallpaper_hd.png)</sub>
